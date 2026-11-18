@@ -7,7 +7,6 @@ import 'pages/device_demo_page.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Mode lokal dapat berjalan tanpa project / akun Supabase.
   if (CloudConfig.enabled) {
     await Supabase.initialize(
       url: CloudConfig.url,
