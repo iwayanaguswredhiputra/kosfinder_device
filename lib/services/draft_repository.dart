@@ -5,8 +5,6 @@ import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Demo ini hanya menyimpan satu draft pada SATU perangkat.
-/// Tidak memerlukan login, tabel database, maupun Worksheet 9.
 class DraftRepository {
   static const _draftKey = 'kosfinder_device_demo_draft_v1';
   final SharedPreferencesAsync _prefs = SharedPreferencesAsync();
