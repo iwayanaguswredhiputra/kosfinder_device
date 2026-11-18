@@ -16,7 +16,6 @@ import 'sensor_demo_page.dart';
 
 class DeviceDemoPage extends StatefulWidget {
   const DeviceDemoPage({super.key});
-
   @override
   State<DeviceDemoPage> createState() => _DeviceDemoPageState();
 }
