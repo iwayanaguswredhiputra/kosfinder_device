@@ -10,7 +10,6 @@ class PhotoUploadResult {
   final String publicUrl;
 }
 
-/// Layanan ini HANYA dipanggil jika mahasiswa memilih praktik cloud.
 class PhotoUploadService {
   Future<PhotoUploadResult> upload(File photo) async {
     if (!CloudConfig.enabled) {
